@@ -1,0 +1,675 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "name": "Caramel Bars",
+      "description": "Contains all essential vitamins and minerals.Low on calories.Filled with creamy  caramel and delicuous.",
+      "price": 12.99,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572913/caramelbar_idxpun.jpg",
+      "image": "blacksports.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "name": "Blue yoga bag",
+      "description": "Yoga mat carrier with strap for comfort will fit around any size mat.",
+      "price": 15.99,
+      "category": 7,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613568719/blueyogabag_yoie4r.jpg",
+      "image": "blueyogabag.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "name": "Milky Bar",
+      "description": "Sweet milky taste,contains milk which helps with clacium for strong bones.",
+      "price": 4.99,
+      "category": 4,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613576721/milkybar_b2d3pg.jpg",
+      "image": "milkybar.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "name": "Kettle Bell",
+      "description": "Excellent for core stability and functional workouts.",
+      "price": 20.5,
+      "category": 7,
+      "rating": 4,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563230/kettlebell_dhuhco.jpg",
+      "image": "kettlebell.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "name": "Blacksports",
+      "description": "Trendy black sports wear.",
+      "price": 14.99,
+      "category": 1,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613564004/blacksports_u4eytv.jpg",
+      "image": " blacksports.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "name": "Yoga Bag",
+      "description": "Multipurpose black yoga bag with stripe and extra space for your purse",
+      "price": 15.99,
+      "category": 8,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563670/yogabag_aimsed.jpg",
+      "image": "DP0624201520422666C.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "name": "Grey Bottom",
+      "price": 20,
+      "category": 8,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572321/greybottom_dhve2p.jpg",
+      "image": "greybottom.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "name": "Women Bottom",
+      "price": 19.99,
+      "category": 6,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572425/womenbottom_cxyv69.jpg",
+      "image": "womenbottom.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "name": "Pink Trainers",
+      "description": "Breathable and durable fabric material makes your feet feel comfortable.",
+      "price": 29.99,
+      "category": 5,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613568846/pinktrainer_i6gd02.jpg",
+      "image": "pinktrainer.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "name": "Twhite Trainers",
+      "price": 34.99,
+      "category": 8,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572070/twhitetrainer_nwhaax.jpg",
+      "image": "twhitetrainer.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "name": "Flower Leggings",
+      "description": "Super soft,fully breathable, good for  squat, bends and twist.",
+      "price": 19.99,
+      "category": 10,
+      "rating": 4,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572569/flowerleggins_zrpcuf.jpg",
+      "image": "flowerleggins.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "name": " Chocolate Bar",
+      "price": 9.99,
+      "category": 2,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572993/chocolatebar_n4bsdn.jpg",
+      "image": "chocolatebar.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "name": "Leggins",
+      "description": "Shiny mat leggings Perfect for party or other occasion.",
+      "price": 20,
+      "category": 10,
+      "rating": 4.2,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572522/colouredleggings_olru0w.jpg",
+      "image": "leggins.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "name": "Shakes1",
+      "description": "Natural carb from milk",
+      "price": 10.99,
+      "category": 4,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613577375/shakes1_s9tskn.jpg",
+      "image": "shakes1.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "name": "Fitness Scale",
+      "description": " Measures Fitness weight",
+      "price": 28.99,
+      "category": 4,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563448/scale_hir6q2.jpg",
+      "image": "scale.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "name": "Red Sports Top",
+      "description": "Tight fit provides target to show body shape.",
+      "price": 24.99,
+      "category": 1,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613568429/redsports_dyjwp6.jpg",
+      "image": "redsports.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "name": "Blue Bottom joggers",
+      "description": "Loose fit sporty pants,comfy to wear in spring,fall or winter.",
+      "price": 29.99,
+      "category": 6,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572256/bluebottom_awzhl6.jpg",
+      "image": "bluebottom.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "name": "Buttleggings",
+      "description": "Fit for Yoga,Pilate.Designed to shape and lift.",
+      "price": 29.99,
+      "category": 10,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572842/buttleggins_iowes8.jpg",
+      "image": "buttleggins.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "name": "Double Chocolate Bar",
+      "description": "Breakfast filling bar for hours, aids weight loss.",
+      "price": 4.99,
+      "category": 2,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613576676/doublechocobar_edtylv.jpg",
+      "image": "doublechocobar.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "name": "Gym Ball",
+      "description": "Sculpt your waist yourself to  improve strength,cardio endurance and balance.",
+      "price": 15.99,
+      "category": 3,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613520183/fitness%20products/gymball_af0aji.jpg",
+      "image": "gymball.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "name": "Shake Cups",
+      "description": " Perfect for travel to gym without having to worry about lid falling off.",
+      "price": 19.99,
+      "category": 2,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613577297/shakecups_mko18c.jpg",
+      "image": "shakecups.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "name": "Brown yoga mat1",
+      "description": "Durable mat for your fitness exercise",
+      "price": 20.99,
+      "category": 7,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563733/yogamat1_uxfrwh.jpg",
+      "image": "yogamat1.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "name": "Sleeveless blue top",
+      "description": "Sporty top for extra mobility.",
+      "price": 19.99,
+      "category": 1,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613568649/bluetop_rws9zt.jpg",
+      "image": "bluetop.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "name": "Black Trainers",
+      "description": "Maximises ground contact and flexibity to grip",
+      "price": 79.99,
+      "category": 5,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613568788/blacktrainer_kbvczs.jpg",
+      "image": "blacktrainer.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "name": "Pink Joggers",
+      "description": "Jogging Pant made of lightweight and breathable 100% cotton material, very comfortable to wear for jogging, Workout, Yoga, Outdoor and daily life throughout the season.",
+      "price": 14.99,
+      "category": 6,
+      "rating": 4,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572372/pinkjogger_reknev.jpg",
+      "image": "pinkjogger.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "name": "Yellow Trainers",
+      "description": ".",
+      "price": 24.99,
+      "category": 5,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572126/yellowtrainer_fnlulx.jpg",
+      "image": "yellowtrainer.jpg"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "name": "Milk Shake",
+      "description": "Sachet mix in cup for meal replacement",
+      "price": 9.99,
+      "category": 4,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613577013/milkshake_x43kln.jpg",
+      "image": "milkshake.jpg"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "name": "High waist Leggings",
+      "description": "The waistband is high so your tummy is sucked in, it gives booty curve,flaunt your body with full confidence.",
+      "price": 19.99,
+      "category": 10,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572621/gleggins_nbsb0l.jpg",
+      "image": "highwaistelegs.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "name": "Kettle bell20",
+      "description": "Ergo designed easy grip handle.Tone muscles and burn fat in your home.",
+      "price": 14.99,
+      "category": 7,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563892/dumbbell_pvrmsm.jpg",
+      "image": "kettlebell20.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "name": "Treadmill walk",
+      "description": "Great for heart rate, weight loss and shed visceral fat",
+      "price": 199.99,
+      "category": 3,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563583/treadmillwalk_bqffy2.jpg",
+      "image": "treadmillwalk.jpg"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "name": "Star Trainers",
+      "description": "Perfect for run, walk, work, weight training, park, cycling jogging driving and yoga. Casual daily shoes which can bring more enjoy to your life.",
+      "price": 69.99,
+      "category": 3,
+      "rating": 4,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572178/starttrainer_wzsvw0.jpg",
+      "image": "starttrainer.jpg"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "name": "Skipping Rope",
+      "description": "Good for cardio and fat loss",
+      "price": 19.99,
+      "category": 7,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563514/skippingrope_lewfcz.jpg",
+      "image": "skippingrope.jpg"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "name": "Strawberry Shake",
+      "description": "This shake is filling, helps with fast weight loss.",
+      "price": 10.99,
+      "category": 2,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613577498/straweberryshake_kqpwcp.jpg",
+      "image": "straweberryshake.jpg"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "name": "Leather leggings",
+      "description": "Latex imitation leather, perfect for parties and other occasions.",
+      "price": 29.99,
+      "category": 10,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572673/leatherleggins_nxa8va.jpg",
+      "image": "leatherleggins.jpg"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "name": "Chocolate Shake",
+      "description": "High fibre weight loss packed with essential nutrients.",
+      "price": 6.99,
+      "category": 2,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613576873/chocolateshake_iam2ag.jpg",
+      "image": "chocolateshake.jpg"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "name": "Rose cape Sport",
+      "description": "Stretchy material for excellent flexibility",
+      "price": 23.99,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613568480/rosesports_i8hndh.jpg",
+      "image": "rosesports.jpg"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "name": "Complete fitted wear",
+      "description": "Our best sporty fitted wear",
+      "price": 39.99,
+      "category": 1,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613568369/fittedwear_aevuue.jpg",
+      "image": "fittedwear.jpg"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "name": " Purple Yoga mat2",
+      "description": "TPE mat, excellent for all daily exercises and no smell.",
+      "price": 19.99,
+      "category": 3,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563803/yogamat2_dqwbom.jpg",
+      "image": "yogamat2.jpg"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "name": "High Neck Black Top",
+      "description": "Cotton soft with brushed interior for extra warmth",
+      "price": 31.99,
+      "category": 1,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613567764/blacktop_b3jbmn.jpg",
+      "image": "blacktop.jpg"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "name": "Protein Bar",
+      "description": "Packed full of Protein, low fat high energy ",
+      "price": 12.99,
+      "category": 2,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613576779/proteinbar_kcivxj.jpg",
+      "image": "proteinbar.jpg"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "name": "Fitness bike",
+      "description": "Reads your pulse sensors,speed and calories used during workout",
+      "price": 299.99,
+      "category": 8,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613562737/fitness%20products/fitnessbike_luhg3p.jpg",
+      "image": "fitnessbike.jpg"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "name": "Blacky Top Bottom",
+      "description": "Hoody stretchable, wind resistance for ultimate winter protection",
+      "price": 69.99,
+      "category": 1,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613568553/topand_bottom_memrnm.jpg",
+      "image": "topbottom.jpg"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "name": "Pink Dumb Bell",
+      "description": "Good for cardio, use to strengthen your arms",
+      "price": 19.99,
+      "category": 7,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563314/pinkdumbell_vlpmt0.jpg",
+      "image": "pinkdumbell.jpg"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "name": "Strip Black Wear",
+      "description": "Soft fabric comfortable to wear.",
+      "price": 29.99,
+      "category": 1,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572000/stripwear_e8hu8g.jpg",
+      "image": "stripwear.jpg"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "name": "Peanut Shake",
+      "description": "On the go great tasting diet shake with essentials vitamins.",
+      "price": 15.99,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613577074/peanutshake_qedned.jpg",
+      "image": "peanutshake.jpg"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "name": "Shakecup1",
+      "description": "Great for your shakes",
+      "price": 4.99,
+      "category": 2,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613577138/shakecup1_b0eslt.jpg",
+      "image": "shakecup1.jpg"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "name": "Pinky leggings",
+      "description": "Easily fit your body,great for workout",
+      "price": 29.99,
+      "category": 10,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613572723/pinkyleggings_y6zwia.jpg",
+      "image": "pinkyleggings.jpg"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "name": "Shakecup2 Blender",
+      "description": " Blends smoothie effortlessly",
+      "price": 24.99,
+      "category": 2,
+      "rating": 3,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613577212/shakecup2_hjuajt.jpg",
+      "image": "shakecup2.jpg"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "name": "800kcal",
+      "description": "Gradual weight loss goal, low carbs high protein diet.",
+      "price": 89.99,
+      "category": 9,
+      "rating": 3,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613961943/4b28fe1c7526264d9c66559480c0cf94_pgaafy.jpg",
+      "image": "800kcal.jpg"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "name": "Monthly pass",
+      "description": "Unlimited access to all fitness facilities ",
+      "price": 69.99,
+      "category": 11,
+      "rating": 3,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613963079/icon-month_vwiorv.jpg",
+      "image": "monthpass.jpg"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "name": "500kcal",
+      "description": " Low calorie diet",
+      "price": "59.99",
+      "category": 12,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613962149/tumblr_inline_my216ihINC1qgeygd_d24zh0.jpg",
+      "image": "500kcal.jpg"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "name": "PayGo Pass",
+      "description": "Great for spare time use.",
+      "price": 7.99,
+      "category": 13,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613962826/1Daydistrict_5_grande_uiv6wh.jpg",
+      "image": "daypass.jpg"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "name": "Lesson and Courses",
+      "description": "Sweaty Body Pump Class",
+      "price": 9.99,
+      "category": 14,
+      "rating": 5,
+      "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613963719/Body-Pumping-2-STACK-654x368_w9wqh5.jpg",
+      "image": "Bodypump.jpg"
+    }
+  }
+]
