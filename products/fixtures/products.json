@@ -62,7 +62,7 @@
       "category": 1,
       "rating": 5,
       "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613564004/blacksports_u4eytv.jpg",
-      "image": " blacksports.jpg"
+      "image": "blacksports.jpg"
     }
   },
   {
@@ -75,7 +75,8 @@
       "category": 8,
       "rating": 4.7,
       "image_url": "https://res.cloudinary.com/ib2/image/upload/c_scale,h_380,q_100,w_380/v1613563670/yogabag_aimsed.jpg",
-      "image": "DP0624201520422666C.jpg"
+      "image": "yogabag.jpg"
+
     }
   },
   {
