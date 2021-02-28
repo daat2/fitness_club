@@ -18,7 +18,7 @@ def profile_view(request):
             form.save()
             messages.success(request, 'Profile updated successfully')
         else:
-            messages.error(request, 'login failed. correct\
+            messages.error(request, 'Update failed. correct\
                 your details. ')
     else:    
              form = UserProfileForm(instance=profile)
