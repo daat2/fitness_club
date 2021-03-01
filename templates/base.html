@@ -1,4 +1,5 @@
 {% load static %}
+{% load socialaccount %}
 
 <!doctype html>
 <html lang="en">
@@ -7,7 +8,7 @@
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">        
     {% endblock %}
 
     {% block extra_meta %}
@@ -46,7 +47,7 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
+                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search ou rProdcuts">
                         <div class="input-group-append">
                             <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                                 <span class="icon">
@@ -111,7 +112,7 @@
             </div>
         </div>
     </header>
-
+    <main>
 
     {% if messages %}       
         <div class="message-container">
@@ -137,6 +138,53 @@
 
     {% block content %}
     {% endblock %}
+     </main>
+    <footer class="page-footer font-small unique-color-dark">
+
+  <div style="background-color: #f2f2f2 ">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                 <h6 class="mb-0">Get connected with us on social networks!!</h6>
+
+    <!--Facebook-->
+<a target="_blank" href="https://en-gb.facebook.com ">
+<button type="button" class="btn btn-fb deep-orange darken-2" >
+ <i class="fab fa-facebook-f pr-1"></i>
+  <span>Facebook</span>
+</button>
+</a>
+
+<!--Twitter-->
+<a target="_blank" href="https://twitter.com/home ">
+<button type="button" class="btn btn-tw deep-orange darken-2">
+  <i class="fab fa-twitter pr-1"></i>
+  <span>Twitter</span>
+</button>
+</a>
+
+<!--Youtube-->
+<a target="_blank" href=" https://www.youtube.com/">
+<button type="button" class="btn btn-yt deep-orange darken-2">
+  <i class="fab fa-youtube pr-1"></i>
+  <span>Youtube</span>
+</button>
+</a>
+
+<!--Instagram-->
+<a target="_blank" href=" https://www.instagram.com/">
+<button type="button" class="btn btn-ins deep-orange darken-2">
+  <i class="fab fa-instagram pr-1"></i>
+  <span>Instagram</span>
+</button>
+</a>
+</div>
+</div>
+   
 
    {% block postloadjs %}
     <script type="text/javascript">
