@@ -147,7 +147,7 @@
         form.submit();
     })
 
-    // Remove item and reload on click
+    // Remove item and reload 
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];

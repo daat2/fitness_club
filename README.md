@@ -1,4 +1,4 @@
-!## **PROJECT NAME: DAAT FITNESS CLUB-Final Project**
+## **PROJECT NAME: DAAT FITNESS CLUB-Final Project**
 *Brand Name :  DAAT Fitness*
 ---
 # **TABLE OF Contents**
@@ -79,7 +79,7 @@ I should be able to browse all the recipes, view the recipe ingredients and meth
  *Acceptance Criteria*: General users should be able to browse all the recipes,view ingredients and methods of any recipe of their choice . 
 
  
-### Wireframes
+### Wireframe
 
 My wireframe was designed with Balsamic software tool and imported to PDF for viewing. 
 The document can be found in the folder path named Wireframe.
