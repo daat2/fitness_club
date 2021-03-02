@@ -1,4 +1,4 @@
-### **PROJECT NAME: DAAT FITNESS-CLUB
+### PROJECT NAME: DAAT FITNESS-CLUB
 *Final Project*
 
 *Brand Name :  DAAT Fitness*
@@ -350,12 +350,12 @@ Testing is carried out to verify the responsiveness and user friendliness of the
 Test is carried out to ensure no broken links and users can complete their transactions and make seucre purchases.
 The test is based on functional requirements as detailed in the user stories.
 
-*Caution* :This test does not verify that webpage has a zero defects but can show it has defects and might not be find all defects.
+*Caution* :This test does not verify that webpage has a zero defects but can show it has defects and might not be find all defects,
 as exhaustive testing is impossible.
 
 Please Naviagte to the [**Test.md**] for all test cases for this project.
 
-### Test Completion Report:### 
+### Test Completion Report: 
 
 * The project was tested on the different devices [IOS,Android, desktop and Laptop].
 
@@ -376,6 +376,7 @@ Please Naviagte to the [**Test.md**] for all test cases for this project.
 ## Deployment
 ------------------------
 The working project have been deployed to Heroku server as a running application.
+
 Code is written in Gitpod and version controlled in GitHub.
 
 * Heroku Deployment Steps:
