@@ -1,4 +1,5 @@
-## **PROJECT NAME: DAAT FITNESS CLUB-Final Project**
+## **PROJECT NAME: DAAT FITNESS-CLUB
+*Final Project*
 *Brand Name :  DAAT Fitness*
 ---
 # **TABLE OF Contents**
@@ -57,26 +58,97 @@ Overall the User Experience process is smooth.
 **The objectives of the user stories is based around the CRUD functionalty for shoppers and prodcut management*
 *to complete the end to end process of store purchases*
 
-**User Story ( Persona : Jane gym lover loves to keep fit.)**
+**User Story ( Persona : Jane gym lover, wants to keep fit.)**
 
-1.	As a Fitness Shopper , 
-I should be able to create a profile, add my recipe to the page.
-    
-*Acceptance criteria*:Barbara should be able to click on the new recipe and add new recipe to the page. 
+ - As a Fitness Shopper: 
+ *Objectives:* Purchase products,Register an account to join the fitness club,Sort and search products
+  and complete purchase and checkout.
 
-**User Story (Persona: Rose is a grocery shopper she needs to prepare her favourite menu and to get the ingredients from the store and search for cooking tool.)**
-   
-2. As a grocery shopper,
-I should be able to browse for my favourite recipe,click on the link to get the list of ingredients to be purchased and browse through the cookware tools.
+1. I want to be able to go onto your website shop and view list of all products.
+   So that i can select a product to purchase.    
+*Acceptance criteria*:Jane should be able to browse through the list of products on the shop fitness club site. 
 
-*Acceptance Criteria*:: Rose should be able to get list of ingredients from her selected favourite recipe and get the list of ingredients.   
- 
-**User Story (Persona: General users, they can browse all the navigation links recipes and select any method to use for their cooking.)**
+2. View Specific category of products: So that i can  select each category menu such as *Active Wear*.
+*Acceptance criteria*:A specific category can be find without having to  browse through all products.
 
-3.	As a general user,
-I should be able to browse all the recipes, view the recipe ingredients and methods of choice.
+3. View individual products details page: So that i can identify product price, images, and option for sizes if applicable.
+*Acceptance criteria*:A Shopper can view the detail page and view the price, images and description.
 
- *Acceptance Criteria*: General users should be able to browse all the recipes,view ingredients and methods of any recipe of their choice . 
+4. Quickly identify offers,product bundles and special offers:	So that i can take advantage of savings.	
+*Acceptance criteria*: A menu to display the specials is available to make informed purchases.
+
+5. Easily view total of my purchase at any time:So that i can control my purchases and time .		
+*Acceptance criteria*:A total cost view should be displayed in the shopping bag so shopper can see their bag items.
+
+6. Easily register for an account: So that i can create a profile and view my order history.
+*Acceptance criteria*: A shopper should be able to go to the Join button and be directed to profile page.
+
+7. Easy login or logout:  So that i can login back to access my account and update my information
+ and logout of account to protect personal information.
+*Acceptance criteria*: A shopper should be able to login and logout of the shop.
+
+8. Recover passowrd incase I forget :,So that i can reset my details when i forget	
+*Acceptance criteria*:A forgotten password link should be visible, shopper should be able to click on the link.
+
+9. Receive email confirmation after regsitration to join the fitness club:So that i can verify my email.
+*Acceptance criteria*:	Shoppers should be able to receive emails confirmation .	
+
+10. Create Profile:So that i can have a personalised user profile in order to keep track of order history.		
+*Acceptance criteria*: Shoppers was able to make a profile page upon joining the club.
+
+11. Sort list of available products in the ALL procucts menu : So that i can sort by best reated products.
+*Acceptance criteria*: A shopper was able to sort by rating. 
+
+12. Sort specific category of products :So that i can find the best price or best rated products
+  in a specific category  and also sort products by category name.
+*Acceptance criteria*: A shopper was able to shop by selecting any of the category name.
+
+13. Sort multiple categories  of products simultaneously : So that i can find the best  price or best rated products
+ across categories  such as shakes and bars.
+*Acceptance criteria*: Shopper was able to shop simultaneous Products.
+
+14. Search a prodcut by name or by description: So that i can find a specific product i like like to purchase 	
+*Acceptance criteria*: A shopper was able to enter an input in  the search field by name or description .
+
+15. Easily see what i have searched for : So that  i can see results quickly and make a decison on purchase.	
+*Acceptance criteria*:A  shopper was able to make buying decision based on search results.
+
+16. Easily select the size and quantity of a product: So that i can see the quantity and sizes of  selected product,
+    and not to have selected wrong item or change my mind on selection.
+*Acceptance criteria*: A shopper was able to see sizes and quantity of selected products.
+
+17. View items in my bag to be purchased:So that i can identify the total cost of my purchases and all items in my bag. 		
+*Acceptance criteria*: A shopper was able to see the total cost of products selected in the shopping bag.
+
+18. Adjsut the quantity of individual items in my bag:So that i can make adjust itmes in my bag before i checkout.
+*Acceptance criteria*: A shopper was able to make necessary adjustments before checkout.
+
+19. Easily enter my payment information: So that i can checkout quickly.
+*Acceptance criteria*: A shopper was able to enter payment information quickly.
+
+20. Feel my personal information is save and secure.: So that i can feel secure about my payment information
+*Acceptance criteria* : A shopper was able to click checkout securely link.
+
+21. View confirmation after checkout.: So that i can see the order in my bag,other charges and verify i have not make mistakes.
+*Acceptance criteria*:A shopper was able to verify items in bag and payment charges before checkout.	
+
+22. Receive an email confirmation after checking out: So that i can keep information of my purchases.
+*Acceptance criteria*: A shopper received an email confirmation to see payment charged and order paid for .	
+
+**User Story (Persona Rose: Admin Store Manager.)**
+- AS a prodcut manager(PM) :
+ *Objectives:* Add,Edit and Delete products from the store 
+
+23. Add a prodcut:  So that i can add new product to the store.
+*Acceptance criteria*: The PM was able to add new product to list of Products
+
+24. Edit/update product: So that i can edit product prices, Update description, available sizes and images.
+*Acceptance criteria*: AS a PM, i was able to perform the update and edit functionality.
+
+25. Delete a prodcut: Remove item out of stock.
+*Acceptance criteria* : I was able to remove items not  available .
+
+  
 
  
 ### Wireframe
@@ -85,12 +157,12 @@ My wireframe was designed with Balsamic software tool and imported to PDF for vi
 The document can be found in the folder path named Wireframe.
 The wireframe was initiative was based on my initial planning phase as a mock-up  to show the  basic functionality of  the webpage and end users interaction on different browsers .
 The final product of the webpage it’s slightly different due to additional requirements along the design phase.  I have used Agile Methodology as part of my project management 
-Click on the link to open the Wireframe.[**Wireframe DAAT FITNESS-CLUB**](https://github.com/daat2/online-recipe-cookware/blob/master/static/wireframe/Recipe%20project%20wireframe1.pdf)
+ Click on the link to open the Wireframe.[**Wireframe DAAT FITNESS-CLUB**](https://github.com/daat2/)
 
 # Features
 
 ## Existing Features 
-DAAT FITNESS ClUB :
+*DAAT FITNESS CLUB* :
 
 The  Existing Features are based on CRUD Functionality set out below :
 
@@ -280,7 +352,7 @@ Code is written in Gitpod and version controlled in GitHub.
     * Stripe for payments and webhooks.
     * Fontawesome to generate Kits.      
  
- ### Deployment steps:###  
+ ### Deployment steps: 
 1. Created Heroku App with the App name.
 2. Linked my  local Git repository to Heroku.
 reated the app in Heroku.
@@ -350,7 +422,7 @@ On your Hertoku dashboard: >>> resources tab > provision a new postgres.
 
 **Project links**
  
-[**(DAAT Fitness Club)DAAT FITNESS-CLUB App in Heroku.**](https://daatfitness-club.herokuapp.com/)
+[**DAAT Fitness Club)DAAT FITNESS-CLUB App in Heroku.**](https://daatfitness-club.herokuapp.com/)
 
 [**Github Repository.**](https://github.com/daat2/fitness_club)
 
@@ -378,7 +450,7 @@ Link sent to developer [**GitHub Link**](https://github.com/daat2/fitness_club).
 - Install the requirements text file.(In order to freeze your requirements)
 
 - To run the project use the command 
-   ``` python3 manage.py runserver``
+   ``` python3 manage.py runserver```
 
 
 # Credits
@@ -387,7 +459,7 @@ Link sent to developer [**GitHub Link**](https://github.com/daat2/fitness_club).
 ## Content
  * I have endeavoured to write some of the code.
  * The contents of the page and images are taken from google search images.
- * Django Secret key generator (https://miniwebtool.com/django-secret-key-generator/)
+* [** Django Secret key generator**](https://miniwebtool.com/django-secret-key-generator/).
  
 
 
