@@ -24,14 +24,14 @@
 
 
 
-1. *  Instruction:  log into Heroku using the link sent to you.
+1.  Instruction:  log into Heroku using the link sent to you.
 
   *  Click  on the All products tab, select all products from the list of drop down.
   *  Expected Result: It should display the list of all products.
   *  Actual Result : List of ll products displayed.
   *  Pass/Fail:  Pass
 
-2. * Instruction : Select a product from the list e.g select pinky leggins.
+2.  Instruction : Select a product from the list e.g select pinky leggins.
 
     * Add a quantity using the plus sign or the drop drow button.
     * Expected Result: Quantity Added using the plus sign.
@@ -39,7 +39,7 @@
     *  Pass or Fail:    Pass
 
 
-3. *  Instruction : Add to bag, checkout securely , then checkout securely again to see total in your bag. 
+3.   Instruction : Add to bag, checkout securely , then checkout securely again to see total in your bag. 
   
       Note : A shopper have the option to continue shopping which will take you back to the products page 
 
@@ -49,25 +49,26 @@
  * Actual result :  Same as Expected.
  *  Pass/Fail:      Pass.
 
-3. - Instructiobn : On the Checkout order page, complete your personal details and cahrge card details.
+3.  Instructiobn : On the Checkout order page, complete your personal details and cahrge card details.
 
     Note : You will be able to see your order summary page, order total, delivery charge if applicable and grand total.
 
-  * Expected Result: Shopper was able to checkout order,view order summary and add card payment.
-  *  Actual Result: Same as Expected.
-  * Pass/Fail #:Pass .
+    * Expected Result: Shopper was able to checkout order,view order summary and add card payment.
+    * Actual Result: Same as Expected.
+    * Pass/Fail #:Pass .
 
 
-4. * Instruction : Click complete order.    
+4.  Instruction : Click complete order. 
+
    * Expected Result: Shopper was able to checkout order,view order summary and add card payment.   
    * Actual Result: Same as Expected 
    * Pass/Fail #:Pass .
 
 
-5. - Instruction: Check an Email confirmation page acknowledging  your  order and payment. 
- * Expected Result : Shopper received an email confirmation of ordre placed .
- * Actual Result: Same as Expected
- * Pass/Fail : Pass
+5. Instruction: Check an Email confirmation page acknowledging  your  order and payment. 
+    * Expected Result : Shopper received an email confirmation of ordre placed .
+    * Actual Result: Same as Expected
+    * Pass/Fail : Pass
 
 
 **Test Auditing**

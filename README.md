@@ -1,4 +1,4 @@
-### PROJECT NAME: DAAT FITNESS-CLUB
+## **PROJECT NAME: DAAT FITNESS CLUB**
 *Final Project*
 
 *Brand Name :  DAAT Fitness*
@@ -252,7 +252,7 @@ add email address , phone number and set a password. A paasword can be recovered
   
 I am constrained by time, impediments and volume of the contents which limit my strength to provide more functionality to this project. 
 i would have love to implement more accessible features for user of the site.This will be part of my work in progress in future.
- Aspiring ideas are :
+Also my database design was could not be done properly due to this constraints.
 
 **MailChip:**
 
@@ -493,9 +493,9 @@ Link sent to developer [**GitHub Link**](https://github.com/daat2/fitness_club).
 * Code Institute Django milestone project. 
 
 ## Content
- * I have endeavoured to write some of the code.
- * The contents of the page and images are taken from google search images.
-* [** Django Secret key generator**](https://miniwebtool.com/django-secret-key-generator/).
+* I have endeavoured to write some of the code.
+* The contents of the page and images are taken from google search images.
+* [** Django Secret key generator**](https://miniwebtool.com/django-secret-key-generator/)
  
 
 
