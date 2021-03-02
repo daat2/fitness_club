@@ -48,17 +48,18 @@ This project has been built with easy navigation menu for users to purchase from
 No color blurring , it has a simple page layout, the process form placing order to checkout is streamlined.
 I have incorportaed power of Bootstrap Toast for notifications so users can see their pop up messages
 and preview order from their shopping bag.A top to back link click function was also created to enable users to get to the top of 
-prodcuts quickly save them from scrolling through all products.
+prodcuts quickly saves them from scrolling through all products.
 Overall the User Experience process is smooth.
 
 
 ## User stories
 
-*I have used  persona to create user stories.*
+**The objectives of the user stories is based around the CRUD functionalty for shoppers and prodcut management*
+*to complete the end to end process of store purchases*
 
-**User Story (Persona: Barbara works as self employed as a cook.)**
+**User Story ( Persona : Jane gym lover loves to keep fit.)**
 
-1.	As a cook, 
+1.	As a Fitness Shopper , 
 I should be able to create a profile, add my recipe to the page.
     
 *Acceptance criteria*:Barbara should be able to click on the new recipe and add new recipe to the page. 
@@ -87,7 +88,6 @@ The final product of the webpage it’s slightly different due to additional req
 Click on the link to open the Wireframe.[**Wireframe DAAT FITNESS-CLUB**](https://github.com/daat2/online-recipe-cookware/blob/master/static/wireframe/Recipe%20project%20wireframe1.pdf)
 
 # Features
-
 
 ## Existing Features 
 DAAT FITNESS ClUB :
@@ -176,16 +176,25 @@ especilay when they are running late for their gym lessons.
 ### Frameworks and libraries used in the project
 
 * [**Python** ](https://www.python.org/dev/peps/pep-0008/)
-   * The whole project is based on Python programming language due to its flexibility. I have used the link attached as a reference guide in the project.
-  
-*  [**Jinja**]( https://realpython.com/primer-on-jinja-templating/)
-   * The Jinja templating language have been used in this project to write logic inside our HTML templates, which allows us to use Python for loops, if statements, and also inheritance.
+   *  It is used to run the command line and the language used to work with Django . I have used the link attached as a reference guide in the project.
+
+* [**Django** ](https://www.djangoproject.com/start/)
+   *  The project is Django web framework , all models are based on django packages.
+
+*  [**Stripe**]( https://stripe.com/)
+   * The for regsitering payments
    
 * [ **JavaScript**](https://www.javascript.com/)
     *  JavaScript libraries  and framework have been used to initialize my Navbar.
 
-* [**JQuery**](https://jquery.com/download/)
-   *  JQuery have been used as part of javascript libraries to communicate with the DOM.
+  * [**Json Formatter**](https://jsonformatter.org/)
+    * I have used this site to build my fixtures for prodcut images.
+
+ * [**Json Formatter**](https://jsonformatter.curiousconcept.com/)
+    * I have used this site to validate my JSON
+ 
+  [**Diffchecker**](https://www.diffchecker.com/)
+    * Used for source code comparison.                   
 
 * [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
   *  Used CSS to customize the styling  and customizing the page elements.
@@ -200,38 +209,27 @@ especilay when they are running late for their gym lessons.
     * I have used GitHub to create project repository and  for version control using Git functioanlity.
 
 * [**Heroku**](https://www.heroku.com/)
-    * Use to deploy and maintains flask applications.I have used Heroku to deploy my application in a web browser.
-
-* [**pymongo**](https://flask-py*mongo.readthedocs.io/en/latest/)
-    * A pymongo library used in the project to run Mongo commands from a python file.
+    * Use to deploy and host app in a web browser.
 
 * [**Balsamic**](https://balsamiq.com/)
     * A software design tool for mockup.I have used Balsamic to structure the basic functionality needed for my Recipe website project.
-
-* [**Materialize**](https://materializecss.com/navbar.html)
- *  Front-end frameowrk to build responsive applications. I have used the libraries to create my  responsive Navbar.
-
-* [**Flask**](https://hackersandslackers.com/flask-routes/)
-    * Flask Framework has been use to connect to database of our HTML graphical user interfaces (GUIs).
          
 * [**Font-awesome**](https://cdnjs.com/libraries/font-awesome) 
     * It is a content delivery network imported for my CSS and Javascript libraries.
 
-* [**Werkzeug**](https://werkzeug.palletsprojects.com/en/1.0.x/utils/?highlight=password) 
-    *  The libraries to generate password authentication.
-   **
-* [**Material Design for Bootstrap 4**](https://mdbootstrap.com/education/bootstrap/ )
+ * [**Bootstrap**](https://getbootstrap.com/ )
     * I have used the framework to design my social network link.
+    * Used Bootstrap classes for styling.
 
-* [**MongoDB**](https://docs.atlas.mongodb.com/security-add-mongodb-users/)
-    * It is use has a connection between application and Databases.I Used MongoDB Atlas and cluster to create Collections(Tables) using key values and field.
+* [**Amazon s3**](https://aws.amazon.com/)
+    * To load images to connect to Django.
 
-* [**Google Fonts**](https://fonts.google.com/specimen/Roboto+Condensed?query=roboto)
-    * Used to beautify and style fonts for the webpage to make it easier for users to read.
+* [**Fontawesome Kits**](https://fontawesome.com/)
+    * Used to generate kits for Icons to work properly.
 
 * [**Codeinstitute**](https://codeinstitute.net/5-day-coding-challenge/?utm_term=code%20institute&utm_campaign=a%2526c_BR_IRL_Code_Institute&utm_source=adwords&utm_medium=ppc&hsa_net=adwords&hsa_tgt=kwd-319867646331&hsa_ad=417883010337&hsa_acc=8983321581&hsa_grp=62188641240&hsa_mt=e&hsa_cam=1578649861&hsa_kw=code%20institute&hsa_ver=3&hsa_src=g&gclid=Cj0KCQiAkuP9BRCkARIsAKGLE8UKGkHlbFcn5QITztlwWRaPBWLYQS9C51AIyuOS174_XD_nATSEj70aAnN7EALw_wcB&gclsrc=aw.ds)
      
-    * I have used CodeInstitute templates libraries for this project.
+    * I have used code institute models and libraries for this project.
 
 * [**Markdown** ](https://guides.github.com/features/mastering-markdown/)
     * I have used this website to learn how to write my README Documentation.
@@ -240,8 +238,9 @@ especilay when they are running late for their gym lessons.
 ## Testing
 -----------------------------
 
-Testing is carried out to verify the responsiveness of the site for end-users.
-The test is based on functional requirements.
+Testing is carried out to verify the responsiveness and user friendliness of the site for end-users.
+Test is carried out to ensure no broken links and users can complete their transactions and make seucre purchases.
+The test is based on functional requirements as detailed in the user stories.
 
 *Caution* :This test does not verify that webpage has a zero defects but can show it has defects and might not be find all defects.
 as exhaustive testing is impossible.
@@ -264,7 +263,6 @@ See attached link for detailed manual testing preocess and defects report.
 * I carried out User Acceptance test by sending link to friends to test the navigation links and basic functionality.
 
 * The part of the requirements for the test is based on the user stories in the UX header.
-
 
 
  
@@ -335,31 +333,23 @@ On your Hertoku dashboard: >>> resources tab > provision a new postgres.
 4. Download the CSV file and save it.( Contains Access and Secret key  ).
 
 ## Connect Django to s3
+1. To be able connect django, two packages have to be installed 
+```pip3 install boto3```
+```pip3 install djamgo-storages```
+2. Run the freeze requirements text file command.
+3. Go to project level settins.py and add it to lisf of installed apps.
+4. Define the AWS_STORAGE_BUCKET_NAME(To verify an environmental variable).
+5. Go to Heroku and update all the environmental variables,
+   and delete DISABLE_COLLECTSTATIC from the list of variables.
+ 6. Update the settings.py with the static files for production.
+ 7. For djandgo to upload images on Heroku app, a file called custom storages has to be created.
+   >>create custom storages >>import settings from django config >>> create static storage classes
+   >> update settings .py with URLS for static and media files.
+   >>Upload all project images and save.
+ 8. Go to heroku app to open up the app.
 
-
-
-
-
-
-
-       
-
-
-
-
-
-
-3. Created a requirements.txt file, which contains a list of our dependencies. 
-```sudo pip3 freeze --local > requirements.txt```
-4. Added   a Procfile - Created a Procfile, by typing 
-```  echo web: python run.py > Procfile``` ( It tells Heroku how to run our project.)
-5. Ran git commit  Procfile for deployment. 
-6. Added a web process ``` heroku ps:scale web=1```  (Command prompt to keep our code running in Heroku)
-7. Set the IP, PORT and  Environmental  variables -> Clicked setting to display the config  Vars .
-8. Ran  ```git push  -u heroku  master```   to associate Heroku to our master branch.
-9. Back to Heroku ->clicked open App-> My recipe page opens.
-
-
+**Project links**
+ 
 [**(DAAT Fitness Club)DAAT FITNESS-CLUB App in Heroku.**](https://daatfitness-club.herokuapp.com/)
 
 [**Github Repository.**](https://github.com/daat2/fitness_club)
@@ -368,9 +358,7 @@ On your Hertoku dashboard: >>> resources tab > provision a new postgres.
 
 ### Steps for a developer to run the project locally.
 
-
-    
-
+   
 Link sent to developer [**GitHub Link**](https://github.com/daat2/fitness_club).
 
 - On the code tab,click the down arrow > Clone page displays list of clone methods.
@@ -385,39 +373,41 @@ Link sent to developer [**GitHub Link**](https://github.com/daat2/fitness_club).
   
 - Press enter to create a local clone.
 
+- Create your environment and import into the settings .py.
+
+- Install the requirements text file.(In order to freeze your requirements)
+
+- To run the project use the command 
+   ``` python3 manage.py runserver``
+
 
 # Credits
+* Code Institute Django milestone project. 
 
 ## Content
- I have endeavoured to write all my code by myslef but used the links and contents below for generating ideas and inspiration to make my the project responsive and creative.
+ * I have endeavoured to write some of the code.
+ * The contents of the page and images are taken from google search images.
+ * Django Secret key generator (https://miniwebtool.com/django-secret-key-generator/)
+ 
 
 
 |    <br>Website Sources    	| Project Ideas 	|
 |-	|-	|
-| [**SimplyRecipe**](   https://www.simplyrecipes.com/ )                                                                       	| Recipe   Ingredients, Methods and   Description.           	|
-|  [**BBCFood**](https://www.bbc.co.uk/food/recipes)                                                                          	| Recipe Ingredients, Methods and     Description.(Cuisine)  	|
-|  [**Allrecipes**](https://www.allrecipes.com/)                                                                              	|  Recipe Ingredients,   Methods and Description.       	|
-|  [**Wiki**](https://commons.wikimedia.org/wiki/File:Jollof_rice_and_Dodo.jpg)                                                   	| Image for cuisine recipe                                 	|
-|  [**Epicurious**]( https://www.epicurious.com/ )                                                                               	|  Card  Design ideas.                                      	|
-|  [**Cloudinary**]( https://cloudinary.com/)                                                                                    	| Design and upload card image properties.                	|
-|  [**Codepen**](https://codepen.io/klesht/pen/pjjegK/)                                                                           	|  Recipe Card Design.                                      	|
-|  [**Codepen**](https://codepen.io/michmy/pen/GrzwVL/)                                                                            	|  Recipe card Contents.                                    	                                 	|
-|  [**Code Institute Data Centric Module(Mini PROJECT-Task Manager)**](https://codeinstitute.net/)                      	| Used for code resources and ideas.                       	|
-|  [**PalletProjects**](https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.route)                                     	| To gain more knowledge  on   flask    route decorator.     	|
-|  [**Favicon   generator**](https://realfavicongenerator.net/)                                                                    	| Used to generate  Recipe logo   Favicon.                   	|
-|  [**Lakeland**]( https://www.lakeland.co.uk/   )                                                                                  	| Cookware tools.                                          	|
-|  [**Stackoverflow**](https://stackoverflow.com/questions/48975383/why-to-use-safe-in-jinja2-python)                             	| How to layout and dsiplay MongoDB     Contents in python.  	|
+| [**Dietnow**](   https://www.dietnow.com/uk )                                                                       	| Ideas on Nutrition Products.           	|
+|  [**Underarmour**](https://www.underarmour.co.uk)                                                                          	| Sport Prodcuts.  	|
+|  [**EveryoneActive**](https://www.everyoneactive.com/)                                                                              	|  Gym activitiess ideas.       	|
+|  [**Google**](https://www.google.com/)                                                                                	| Images for prodcuts                                 	|
+|  [**myfitnesspal**]( https://www.myfitnesspal.com/ )                                                                               	|  Gym activities ideas.                                      	|
+|  [**Cloudinary**]( https://cloudinary.com/)                                                                                    	| Design and upload Prodcut image properties.                	|
+|  [**Code Institute Django Module(Mini PROJECT-Boutique-Ado)**](https://codeinstitute.net/)                      	| Used for code resources and ideas.                       	|
 |  [**Tables Generator**](https://www.tablesgenerator.com/)                                                                         | Table generator.     
 |  [**GitHub Docs**](https://docs.github.com/en)                                                                                	| Research on git documentation.
 
 
 ## Media
 [**cloudinary**](https://cloudinary.com/)
-* Used the resources to upload all card images.
-
- [**Favicon generator**](https://realfavicongenerator.net/) 
-   *   Generated the codes used for the faviocn logo icon.
-
+* Used the resources to upload all project images.
+ 
 * [**Codeinstitute**](https://codeinstitute.net/5-day-coding-challenge/?utm_term=code%20institute&utm_campaign=a%2526c_BR_IRL_Code_Institute&utm_source=adwords&utm_medium=ppc&hsa_net=adwords&hsa_tgt=kwd-319867646331&hsa_ad=417883010337&hsa_acc=8983321581&hsa_grp=62188641240&hsa_mt=e&hsa_cam=1578649861&hsa_kw=code%20institute&hsa_ver=3&hsa_src=g&gclid=Cj0KCQiAkuP9BRCkARIsAKGLE8UKGkHlbFcn5QITztlwWRaPBWLYQS9C51AIyuOS174_XD_nATSEj70aAnN7EALw_wcB&gclsrc=aw.ds)
     * Used some of the source code from my boutique_Ado mini project.    
 
