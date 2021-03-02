@@ -33,10 +33,10 @@
 
 2.  Instruction : Select a product from the list e.g select pinky leggins.
 
-    * Add a quantity using the plus sign or the drop drow button.
-    * Expected Result: Quantity Added using the plus sign.
-    * Actual result :  Quantity Added  using the plus sign.
-    *  Pass or Fail:    Pass
+  * Add a quantity using the plus sign or the drop drow button.
+  * Expected Result: Quantity Added using the plus sign.
+  * Actual result :  Quantity Added  using the plus sign.
+  *  Pass or Fail:    Pass
 
 
 3.   Instruction : Add to bag, checkout securely , then checkout securely again to see total in your bag. 
@@ -53,9 +53,9 @@
 
     Note : You will be able to see your order summary page, order total, delivery charge if applicable and grand total.
 
-    * Expected Result: Shopper was able to checkout order,view order summary and add card payment.
-    * Actual Result: Same as Expected.
-    * Pass/Fail #:Pass .
+  * Expected Result: Shopper was able to checkout order,view order summary and add card payment.
+  * Actual Result: Same as Expected.
+  * Pass/Fail #:Pass .
 
 
 4.  Instruction : Click complete order. 
@@ -66,9 +66,9 @@
 
 
 5. Instruction: Check an Email confirmation page acknowledging  your  order and payment. 
-    * Expected Result : Shopper received an email confirmation of ordre placed .
-    * Actual Result: Same as Expected
-    * Pass/Fail : Pass
+  * Expected Result : Shopper received an email confirmation of ordre placed .
+  * Actual Result: Same as Expected
+  * Pass/Fail : Pass
 
 
 **Test Auditing**
